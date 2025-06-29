@@ -993,6 +993,13 @@ input[type="text"] {
         padding: 40px 20px;
     }
 
+    .image-size {
+        width: 100vw;
+        height: 250px;
+        /* Adjust based on how tall you want the crop */
+        overflow: hidden;
+    }
+
     .cartItem-details {
         display: flex;
         flex-direction: row;
@@ -1036,10 +1043,30 @@ input[type="text"] {
         justify-items: center;
         align-items: center;
         gap: 30px;
+        width: 100%;
         max-width: 100%;
         overflow-x: hidden;
         margin: 0;
         padding: 0;
+    }
+
+    .image-size {
+        /* width: 100vw;
+        height: 250px;
+        overflow: hidden; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .mensOuterwear-img {
+        display: block;
+        width: 1440px;
+        max-width: none;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
     }
 
     .separate-label {
@@ -1048,6 +1075,18 @@ input[type="text"] {
         justify-content: space-around;
         align-content: center;
         width: 100%;
+    }
+
+    .tshirts-row {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+
+    .tshirts-row img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .label1 {
@@ -1083,7 +1122,7 @@ input[type="text"] {
     .single-item {
         /* width: 400px;
         height: 550px; */
-        width: 100%;
+        width: 80%;
         max-width: 100%;
         height: auto;
     }
