@@ -1222,6 +1222,15 @@ input[type="text"] {
         height: auto;
     }
 
+    .checkout-button {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        max-width: 100%;
+        margin-top: 7px;
+        height: auto;
+    }
+
     .desc {
         font-size: 14px;
         display: flex;
