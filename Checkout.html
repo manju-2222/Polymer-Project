@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - SHOP</title>
+    <link rel="icon" type="image/png" href="bag.png">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Polymer Shop Demo" />
+    <meta name="theme-color" content="#fff" />
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        S H O P
+        <img src="cart.png" alt="cart" class="cart-icon">
+    </nav>
+    <header class="heading-items">
+            <div>
+                <p>Checkout</p>
+            </div>
+            <span class="heading-price">Shop is a demo app - form data will not be sent</span>
+        </header>
+    <div class="checkout-container">
+        
+        <form class="form-class">
+            <div class="checkout-divs">
+                <h5 class="font-h5">Account Information</h5>
+                <br>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="phno" name="phno" id="phno" required>
+                    <label for="phno">Phone Number</label>
+                </div>
+                <h5 class="font-h5">Shipping Address</h5>
+                <br>
+                <div class="form-group">
+                    <input type="address" name="address" id="address" required>
+                    <label for="address">Address</label>
+                </div>
+                <div class="form-group">
+                    <input type="city" name="city" id="city" required>
+                    <label for="city">City</label>
+                </div>
+                <div class="side-feilds">
+                    <div class="form-group">
+                        <input type="st/prov" name="st/prov" id="st/prov" required>
+                        <label for="st/prov">State/Province</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="zip/post" name="zip/post" id="zip/post" required>
+                        <label for="zip/post">Zip/Postal Code</label>
+                    </div>
+                </div>
+                <br>
+                <label class="form-font">Country</label>
+                <select class="form-country">
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                </select>
+                <br>
+                <br>
+                <h5 class="font-h5">Billing Address</h5>
+                <br>
+                <span><input type="checkbox" id="checking"></span><label for="checking"> Use different billing
+                    address</label><br>
+            </div>
+            <br>
+            <div class="checkout-divs">
+                <h5 class="font-h5">Payment Method</h5>
+                <br>
+                <div class="form-group">
+                    <input type="cardholder" name="cardholder" id="cardholder" required>
+                    <label for="cardholder">Cardholder Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="cdno" name="cdno" id="cdno" required>
+                    <label for="cdno">Card Number</label>
+                </div>
+                <br>
+
+                <label for="expiry" class="form-font">Expiry</label><br>
+                <div class="expiry-class">
+                    <select class="form-expiry">
+                        <option value="Jan" selected>Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select class="form-expiry">
+                        <option value="2016" selected>2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                    </select></span>
+                    <input type="text" class="expiry-data" id="expiry" placeholder="CVV" style="width: 100px">
+                </div>
+                <br>
+                <div>
+                    <h5 class="font-h5">Order Summary</h5>
+                    <br>
+                    <div class="order-summary">
+                        <div class="summary-title">Men's Tech Shell Full-Zip</div>
+                        <div class="price">$200.80</div>
+                    </div>
+                    <div class="order-summary">
+                        <div class="summary-title">Grey Heather Fleece Zip Hoodie</div>
+                        <div class="price">$77.70</div>
+                    </div>
+                    <div class="order-summary">
+                        <div class="summary-title">Jacquard-Knit Full-Zip Fleece</div>
+                        <div class="price">$524.30</div>
+                    </div>
+                    <br>
+                    <div class="order-summary">
+                        <div class="summary-title">Total</div>
+                        <div class="price">$802.80</div>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="fixed-btn1">
+                            <span>PLACE </span>
+                            <span>ORDER</span>
+                        </button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+        <a href="#" alt="Copyright" class="a2">Made by Polymer</a><br>
+        <button class="demo">DEMO ONLY</button>
+        <button class="fixed-btn">CHECKOUT</button>
+    </footer>
+</body>
+
+</html>
