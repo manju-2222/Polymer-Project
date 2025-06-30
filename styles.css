@@ -1194,6 +1194,26 @@ input[type="text"] {
         text-decoration: none;
     }
 
+    .fixed-btn2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        background-color: white;
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        border: 2px solid black;
+        padding: 10px 20px;
+        width: 50%;
+        max-width: 300px;
+        text-align: center;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        text-decoration: none;
+    }
+
     .cartTotal-div {
         display: flex;
         flex-direction: row;
@@ -1234,6 +1254,24 @@ input[type="text"] {
         height: auto;
     }
 
+    .checkout-button1 {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        max-width: 100%;
+        margin-top: 7px;
+        height: auto;
+    }
+
+   .checkout-button3{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        max-width: 100%;
+        margin-top: 7px;
+        height: auto;
+    }
+
     .desc {
         font-size: 14px;
         display: flex;
@@ -1248,6 +1286,9 @@ input[type="text"] {
     }
 
     .desc-small {
+        display: none;
+    }
+    .cart-button3{
         display: none;
     }
 }
@@ -1301,4 +1342,5 @@ input[type="text"] {
     .cartTotal-div {
         margin-top: 20px;
     }
+    .cart-button3{display: none;}
 }
