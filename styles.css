@@ -184,7 +184,7 @@ body {
 }
 
 .heading-items {
-
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -399,6 +399,13 @@ body {
     line-height: 1.5;
 }
 
+.price1 {
+    font-size: 13px;
+    color: black;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
+}
+
 .single-container {
     display: flex;
     flex-direction: column;
@@ -521,15 +528,27 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: #999;
-    width: 80%;
+    width: 70%;
     max-width: 1440px;
     box-sizing: border-box;
 }
 
+.left-arrow{
+    font-size: 3em;
+    position: absolute;
+    left: 10px;
+    bottom: 11px;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+.arrow{
+    text-decoration: none;
+    color: black;
+}
 
 .sizeSelect {
-    width: 86%;
+    width: 84%;
     padding: 10px;
     background: none;
     border: none;
@@ -579,7 +598,7 @@ body {
 .image-data {
     margin-top: 10px;
     font-family: 'Roboto', 'Noto', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .cart-class1,
@@ -590,7 +609,8 @@ body {
     justify-content: space-between;
     justify-items: center;
     align-content: center;
-    padding-top: 20px;
+    padding-top: 8px;
+    margin: 15px;
 }
 
 .cart-select {
@@ -613,8 +633,8 @@ body {
 }
 
 .cart-image {
-    height: 80px;
-    width: 70px;
+    height: 72px;
+    width: 72px;
 }
 
 .remove-cart {
@@ -671,6 +691,11 @@ body {
     max-width: 400px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+.adjust-font {
+    font-size: 13px;
 }
 
 .form-class {
@@ -688,6 +713,7 @@ body {
     margin-bottom: 30px;
     width: 100%;
     max-width: 400px;
+    margin-top: 10px;
 }
 
 .form-group input {
@@ -1121,6 +1147,12 @@ input[type="text"] {
 
     }
 
+    .remove-cart {
+        display: flex;
+        align-self: center;
+    }
+
+
     /* .checkout-divs1 {
         width: 100%;
         max-width: 100%;
@@ -1255,7 +1287,7 @@ input[type="text"] {
     .checkout-button {
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 58%;
         max-width: 100%;
         margin-top: 7px;
         height: auto;
