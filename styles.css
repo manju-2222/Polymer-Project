@@ -444,6 +444,7 @@ body {
     justify-content: center;
     align-content: center;
     font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
 }
 
 .checkout-divs1 {
@@ -955,7 +956,7 @@ input[type="text"] {
     }
 
     .sizeSelect {
-        width: 90%;
+        width: 87%;
         padding: 10px;
         background: none;
         border: none;
@@ -968,7 +969,7 @@ input[type="text"] {
     }
 
     .quantitySelect {
-        width: 82%;
+        width: 80%;
         padding: 10px;
         background: none;
         border: none;
@@ -981,6 +982,8 @@ input[type="text"] {
 
     .feature-class {
         margin-left: 40px;
+        line-height: 1.5;
+        font-size: 14px;
     }
 
     .cart-container {
@@ -1216,7 +1219,7 @@ input[type="text"] {
     .cart-button {
         display: flex;
         justify-content: center;
-        width: 20%;
+        width: 45%;
         max-width: 100%;
         margin-top: 7px;
         height: auto;
@@ -1237,7 +1240,7 @@ input[type="text"] {
         justify-content: flex-start;
         align-content: center;
         font-family: 'Roboto', 'Noto', sans-serif;
-
+        line-height: 1.5;
     }
 
     .fixed-btn {
