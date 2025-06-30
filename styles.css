@@ -431,6 +431,7 @@ body {
 
 .feature-class {
     margin-left: 40px;
+    line-height: 1.5;
 }
 
 .selection-divs {
@@ -791,6 +792,10 @@ input[type="text"] {
     font-size: 13px;
 }
 
+.cart-button3 {
+    display: none;
+}
+
 @media (min-width: 768px) and (max-width: 2560px) {
     .Item-container {
         display: grid;
@@ -950,13 +955,13 @@ input[type="text"] {
     }
 
     .selection-divs {
-        width: 80%;
+        width: 75%;
         max-width: 100%;
 
     }
 
     .sizeSelect {
-        width: 87%;
+        width: 85%;
         padding: 10px;
         background: none;
         border: none;
@@ -969,7 +974,7 @@ input[type="text"] {
     }
 
     .quantitySelect {
-        width: 80%;
+        width: 78%;
         padding: 10px;
         background: none;
         border: none;
@@ -979,6 +984,7 @@ input[type="text"] {
         padding-bottom: 8px;
         box-sizing: border-box;
     }
+
 
     .feature-class {
         margin-left: 40px;
@@ -1207,11 +1213,12 @@ input[type="text"] {
         color: black;
         border: 2px solid black;
         padding: 10px 20px;
-        width: 50%;
+        width: 90%;
         max-width: 300px;
         text-align: center;
         font-family: 'Roboto', 'Noto', sans-serif;
         text-decoration: none;
+        box-sizing: border-box;
     }
 
     .cartTotal-div {
@@ -1263,7 +1270,16 @@ input[type="text"] {
         height: auto;
     }
 
-   .checkout-button3{
+    .checkout-button3 {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        max-width: 100%;
+        margin-top: 7px;
+        height: auto;
+    }
+
+    .cart-button3 {
         display: flex;
         justify-content: center;
         width: 40%;
@@ -1288,9 +1304,7 @@ input[type="text"] {
     .desc-small {
         display: none;
     }
-    .cart-button3{
-        display: none;
-    }
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1342,5 +1356,8 @@ input[type="text"] {
     .cartTotal-div {
         margin-top: 20px;
     }
-    .cart-button3{display: none;}
+
+    .cart-button3 {
+        display: none;
+    }
 }
